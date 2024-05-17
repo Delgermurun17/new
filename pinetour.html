@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Pinetour</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat;
+            background-color: whitesmoke;
+        }
+
+        header {
+            background: black;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            height: 100vh;
+        }
+
+        #hero-section {
+            margin-top: 200px;
+
+        }
+
+        div h1 {
+            font-size: 72px;
+            text-align: center;
+        }
+
+        #trip {
+            font-size: 24px;
+            color: #ABABAB;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: center;
+            margin: 0;
+        }
+
+        #img4 {
+            display: flex;
+            justify-content: space-between;
+            margin: 80px 0 0 0;
+        }
+
+        #future-section {
+            margin: 0%;
+        }
+
+        #container1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #tour->h4 {
+            font-size: 24px;
+            color: #ababab;
+            margin: 0 0 10px 0;
+        }
+
+        #tour->h2 {
+            font-size: 48px;
+            color: #303030;
+            margin: 0;
+        }
+
+        #container2 {
+            height: 559px;
+            width: 303px;
+            display: flex;
+            justify-content: space-between;
+            margin: 92px 0 0 0;
+
+        }
+
+        .blackbox {
+            padding: 17.5px;
+            border-radius: 40px;
+            background: #1D1F24;
+            color: #16A94A;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20.72px;
+        }
+
+        #blackbox {
+            width: 56px;
+            height: 535px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        .big {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.5px;
+            text-align: left;
+            color: black;
+            margin: 0;
+        }
+
+        .small {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.63px;
+            text-align: left;
+            color: #777777;
+            margin: 4px 0 0 0;
+        }
+
+        #tours {
+            height: 518.17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 8.42px 0 0 0;
+        }
+
+        #pricing {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            color: #ababab;
+        }
+
+        #last-section {
+            text-align: center;
+        }
+
+        #pricing-pack-container {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            margin: 80px 0 0 0;
+        }
+
+
+        #pack-box {
+            display: flex;
+            flex-direction: reverse;
+            justify-content: center;
+
+        }
+
+        .pricing-pack-box {
+            width: 285px;
+            height: 370px;
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            margin: 10px;
+        }
+
+        .pricing-pack-box:hover {
+            border: 2px solid green;
+        }
+
+        .pricing-pack-box>ul {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24.38px;
+            text-align: start;
+            color: #777777;
+        }
+
+        ul li {
+            margin-bottom: 13px;
+        }
+
+        #hero-footer {
+            background-color: #171717;
+            height: 393px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hero-footer>h1 {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39.01px;
+            color: white;
+        }
+
+        #hero-footer>button {
+            margin-top: 10px;
+            background: #18BA51;
+            width: 130px;
+            height: 44px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.5px;
+            text-align: center;
+            color: white;
+            border: none;
+        }
+
+        #last-footer {
+            background: #101010;
+            border-top: 1px solid #303030;
+            height: 228px;
+            display: flex;
+            justify-content: center;
+        }
+        nav{
+            width: 1200px;
+            margin:80px;
+        }
+
+        nav h1 {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 34.13px;
+            text-align: left;
+            color: white;
+            margin: 0px;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div><img src="Group 7 1.png" alt="pine tour."></div>
+    </header>
+    <main>
+        <section id="hero-section">
+            <div>
+                <h1>
+                    Khuvsgul Lake
+                </h1>
+                <p id="trip">TRIP</p>
+            </div>
+            <div id="img4">
+                <img src="Group 14.png" alt="">
+                <img src="image 26.png" alt="">
+                <img src="image 25.png" alt="">
+                <img src="Group 13.png" alt="">
+            </div>
+        </section>
+        <section id="future-section">
+            <div id="container1">
+                <div>
+                    <div id="tour-">
+                        <h4>TOURS | 6 DAYS</h4>
+                        <h2>Destination of <br> Our Agency</h2>
+                    </div>
+                    <div id="container2">
+                        <div id="blackbox">
+                            <span class="blackbox">D1</span>
+                            <span class="blackbox">D2</span>
+                            <span class="blackbox">D3</span>
+                            <span class="blackbox">D4</span>
+                            <span class="blackbox">D5</span>
+                            <span class="blackbox">D6</span>
+                        </div>
+                        <div id="tours">
+                            <div>
+                                <p class="big">Sukhbaarar square</p>
+                                <p class="small">Ulaanbaatar</p>
+                            </div>
+                            <div>
+                                <p class="big">Khuvsgul lake</p>
+                                <p class="small">Khuvsgul</p>
+                            </div>
+                            <div>
+                                <p class="big">Khorgiin togoo</p>
+                                <p class="small">Arkhangai</p>
+                            </div>
+                            <div>
+                                <p class="big">Terkhiin tsagaan lake</p>
+                                <p class="small">Arkhangai</p>
+                            </div>
+                            <div>
+                                <p class="big">Amarbaysgalant monastery</p>
+                                <p class="small">Bulgan</p>
+                            </div>
+                            <div>
+                                <p class="big">Sukhbaatar square</p>
+                                <p class="small">Ulaanbaatar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><img src="Group 26.png" alt=""></div>
+            </div>
+        </section>
+        <section id="last-section">
+            <div>
+                <p id="pricing">PRICING</p>
+                <h2>Pricing of <br> Our Agency</h2>
+            </div>
+            <div id="pricing-pack-container">
+                <div class="pricing-pack-box">
+                    <h4>Starter pack</h4>
+                    <ul>
+                        <li>Trip</li>
+                        <li>Hotel</li>
+                        <li>Breakfast</li>
+                        <li>Lunch</li>
+                        <li>Dinner</li>
+                    </ul>
+                    <h3>2100$</h3>
+                </div>
+                <div class="pricing-pack-box">
+                    <h4>Luxury pack</h4>
+                    <ul>
+                        <li>Starter pack</li>
+                        <li>Flights</li>
+                        <li>Cruise trip</li>
+                        <li>Cruise trip</li>
+                    </ul>
+                    <h3>4200$</3>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div id="hero-footer">
+            <h1>Are you ready?</h1> <button>Order now</button>
+        </div>
+        <div id="last-footer">
+            <nav>
+            <h1>Pine<br>Tour.</h1>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
